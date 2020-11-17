@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+
+.header {
+   height : 42px;
+   margin : 30px auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 64px;
+}
+
+.nav {
+     float: left;
+}
+
+.nav ul li{
+    float: left;
+    
+}
+
+.nav ul li a{
+    display: block;
+    height: 40px;
+    margin-right:15px ;
+    line-height: 40px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.search {
+    margin-left:80px ;
+    float: left;
+
+}
+.search input{
+    float: left;
+    width: 300px;
+    height: 40px;
+    border:  1px solid #00a4ff;
+    border-right:  0;
+    padding-left: 20px;
+}
+
+.search button{
+    float: left;
+    width: 50px;
+    height: 42px;
+    background: url(images/btn.png);
+}
+
+.user {
+    height 42px;
+    line-height: 42px;
+    color: #c2c4c5;
+    float: left;
+    margin-left: 30px;
+}
+
+.banner{
+    height: 420px;
+    background:#1c036c url(images/banner2.jpg) no-repeat center;
+}
+
+.subnav {
+    float: left;
+    width: 150px;
+	height: 400px;
+    padding:  0 20px;
+    background: rgba(0, 0, 0, .3);
+}
+
+.subnav li {
+	height: 45px;
+	line-height: 45px;
+}
+.subnav li a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.subnav  span {
+	float: right;
+}
+
+.course {
+    float: right;
+    width: 228px;
+	height: 300px;
+    margin-top: 40px;
+}
+
+.course-hd{
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #9bceea;
+}
+.course-bd{
+    padding: 0 15px;
+    background-color: #ffffff;
+}
+
+.course-bd ul li{
+  height: 52px;
+  border-bottom: 1px solid #a5a5a5;
+}
+.course-bd ul {
+	/*外边距塌陷的问题
+	margin-top: 10px;*/
+	padding-top: 10px;
+}
+.all {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #22b0ff;
+}
+
+.goods{
+    height: 60px;
+    margin-top: 10px;
+    line-height: 60px;
+    background-color:  pink;
+}
+.goods h3{
+    float: left;
+    margin: 0 35px;
+}
+.goods-item{
+    float: left;
+}
+.mod
+{
+    float:left;
+}
+.goods-item a {
+	font-size: 16px;
+	color: #050505;
+	margin: 0 30px;
+}
+.box-bd {
+	/*这个盒子一定不要给高度 因为我们可能放一行 也可能是2行 或者n行*/
+	/*宽度呢？ 呵呵*/
+	/*box-bd 宽度 超过了 版心 1200 是可以的，就就解决了问题*/
+	width: 1215px;
+}
+.box-bd li {
+	float: left;
+	width: 228px;
+	height: 270px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.box-bd li img {
+	width: 100%;
+}
+.box-bd li h4 {
+	margin: 20px;
+	font-size: 14px;
+	color: #050505;
+	font-weight: 400;
+}
+.box-bd li p {
+	margin: 0 20px;
+	font-size: 12px;
+	color: #999;
+}
+.box-bd p span {
+	color: orange;
+}
+/*box end */
+/*footer*/
+.footer {
+	height: 385px;
+	padding-top: 30px;
+	background-color: #fff;
+}
+.copyright {
+	float: left;
+}
+.copyright p {
+	font-size: 12px;
+	color: #666;
+	margin: 20px 0 15px 0;
+}
+.app {
+	display: block;
+	width: 118px;
+	height: 34px;
+	border: 1px solid #00a4ff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+.links {
+	float: right;
+}
+.links  dl {
+	float: left;
+	margin-left: 100px;
+}
+.links  dt {
+	height: 35px;
+	font-size: 16px;
+	color: #333;
+}
+.links  dd a {
+	font-size: 12px;
+	color: #333;
+}
+.links  dd a:hover {
+	color: #004aff;
+}
+
+
+
+
